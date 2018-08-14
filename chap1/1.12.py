@@ -12,7 +12,7 @@ word_counts = Counter(words)
 top_three = word_counts.most_common(3)
 print(top_three)
 
-#
+# DISCUSSION
 
 word_counts['not']
 word_counts['eyes']

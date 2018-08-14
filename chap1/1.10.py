@@ -10,7 +10,7 @@ def dedupe(items):
 a = [1, 5, 2, 1, 9, 1, 5, 10]
 print(list(dedupe(a)))
 
-#
+# DISCUSSION
 
 def dedupe_dict(items, key=None):
     seen = set()

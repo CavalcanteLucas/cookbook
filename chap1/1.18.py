@@ -27,7 +27,7 @@ def comput_cost(records):
         total += s.shares * s.price
     return total
 
-#
+# DISCUSSION
 
 s = Stock('ACME', 100, 123.45)
 s
@@ -38,6 +38,7 @@ s
 Stock = namedtuple('Stock', ['name', 'shares', 'price', 'date', 'time'])
 stock_prototype = Stock('', 0, 0.0, None, None)
 
+# Function to convert from dictionart to a Stock
 def dict_to_stock(s):
     return stock_prototype._replace(**s)
 

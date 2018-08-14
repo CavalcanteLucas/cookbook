@@ -18,7 +18,7 @@ print(rows_by_uid)
 rows_by_lfname = sorted(rows, key=itemgetter('lname', 'fname'))
 print(rows_by_lfname)
 
-#
+# DISCUSSION
 
 rows_by_fname = sorted(rows, key=lambda r: r['fname'])
 rows_by_lname = sorted(rows, key=lambda r: r['lname'])

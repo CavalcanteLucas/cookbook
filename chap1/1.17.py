@@ -13,7 +13,7 @@ p1 = { key:value for key, value in prices.items() if value > 200 }
 tech_names = {'AAPL', 'IBM', 'HPQ', 'MSFT'}
 p2 = { key:value for key, value in prices.items() if key in tech_names }
 
-#
+# DISCUSSION
 
 p3 = dict((key,value) for key,value in prices.items() if value > 100)
 p3

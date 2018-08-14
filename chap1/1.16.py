@@ -9,7 +9,7 @@ pos
 for x in pos:
     print(x)
 
-#
+# DISCUSSION
 
 import math
 [math.sqrt(n) for n in mylist if n > 0]

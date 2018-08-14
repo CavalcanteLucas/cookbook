@@ -21,7 +21,7 @@ prices_and_names = zip(prices.values(), prices.keys())
 print(min(prices_and_names))
 #print(max(prices_and_names)) # should error
 
-#
+# DISCUSSION
 
 print(min(prices))
 print(max(prices))
