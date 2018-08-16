@@ -1,0 +1,1 @@
+# Manually Consuming an Iterator
