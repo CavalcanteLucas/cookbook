@@ -13,3 +13,14 @@ round(a,-3)
 
 # Discussion
 
+x = 1.23456
+format(x, '0.2f')
+format(x,'0.3f')
+'value is {:0.3f}'.format(x)
+
+a = 2.1
+b = 4.2
+c = a + b
+c
+c = round(c,2)
+c
