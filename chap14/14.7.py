@@ -1,0 +1,2 @@
+# Catching All Exceptions
+
