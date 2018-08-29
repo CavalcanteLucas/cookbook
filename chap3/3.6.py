@@ -22,7 +22,7 @@ cmath.exp(a)
 
 # Discussion
 
-import numpy as numpy
+import numpy as np
 a = np.array([2+3j, 4+5j, 6-7j, 8+9j])
 a
 a+2
