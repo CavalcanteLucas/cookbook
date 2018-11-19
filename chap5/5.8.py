@@ -8,3 +8,5 @@ with open('somefile.bin', 'rb') as f:
     records = iter(partial(f.read, RECORD_SIZE), b'')
     for r in records:
         print(r)
+
+# test line
