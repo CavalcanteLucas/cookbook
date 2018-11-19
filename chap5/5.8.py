@@ -9,4 +9,4 @@ with open('somefile.bin', 'rb') as f:
     for r in records:
         print(r)
 
-# test line
+# this is a comment line
