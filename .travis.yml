@@ -1,0 +1,22 @@
+sudo: false
+
+langurage: python
+
+matrix:
+  - python: 3.7
+    dist: xenial
+    os: linux
+    addons:
+      apt:
+        sources:
+          - ubuntu-toolchain-r-test
+        packages:
+          - gcc-7
+
+before_install:
+  - conda env create -f environment.yml;
+    source activate MY_ENV;
+    conda list;
+    
+script:
+  - py.test test_sample.py

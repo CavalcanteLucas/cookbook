@@ -1,0 +1,6 @@
+name: MY_ENV
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pytest
