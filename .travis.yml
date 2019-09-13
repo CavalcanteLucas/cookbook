@@ -3,4 +3,4 @@ sudo: false
 langurage: python
 
 script:
-  - py.test test_sapmle.py
+  - py.test test_sample.py
