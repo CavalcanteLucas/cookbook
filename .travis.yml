@@ -14,5 +14,8 @@ matrix:
           - gcc-7
           - g++-7
 
+install:
+  - pip install -e .;
+
 script:
   - py.test test_sample.py
